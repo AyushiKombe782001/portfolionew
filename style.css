@@ -339,7 +339,7 @@ section .title::after{
 .skills .skills-content .left a{
     display: inline-block;
     background: crimson;
-    color: #fff;
+    color: #fff;      
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
@@ -360,6 +360,7 @@ section .title::after{
 
 .skills .skills-content .right .info{
     display: flex;
+    margin-bottom: 5px;
     align-items: center;
     justify-content: space-between;
 }
@@ -493,6 +494,10 @@ section .title::after{
         width: calc(50% - 10px);
         margin-bottom: 20px;
     }
+    .skills .skills-content .column{
+        width: 100%;
+        margin-bottom: 35px;
+    }
     
 }
 
@@ -510,7 +515,8 @@ section .title::after{
     .home .home-content a{
         font-size: 20px;
     }
-    .education .edu-content .card{
+    .education .edu-content .card
+    {
         width: 100%;
     }
 }
