@@ -293,14 +293,14 @@ section .title::after{
     transform: scale(1.05);
 }
 
-.education .edu-content .card .box i{
+.education .edu-content .card i{
     font-size: 50px;
     color: crimson;
     transition: color 0.3s ease;
 }
 
-.education .edu-content .card:hover .box i{
-    color: #fff;
+.education .edu-content .card:hover i{
+    color: #fff !important;
 }
 
 .education .edu-content .card .text{
