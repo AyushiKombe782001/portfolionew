@@ -156,16 +156,16 @@ section{
     padding: 100px 30px;
 }
 
-.about, .education, .skills{
-    font-family: 'Poppins', sans-serif;
-}
-
 .about .about-content, 
-.education .edu-content .skills .skills-content{
+.education .edu-content, .skills .skills-content{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+}
+
+.about, .education, .skills{
+    font-family: 'Poppins', sans-serif;
 }
 
 section .title{
@@ -208,6 +208,7 @@ section .title::after{
     content: "who i am";
     font-size: 15px;
 }
+
 
 
 .about .about-content.left{
@@ -316,9 +317,19 @@ section .title::after{
 
 /* skills section */
 
+.skills .title::after{
+    content: "what i know";
+}
 
+.skills .skills-content .column{
+    width: calc(50% - 30px);
+}
 
-
+.skills .skills-content .left .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
 
 /*responsive*/
 
