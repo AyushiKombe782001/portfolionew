@@ -156,6 +156,18 @@ section{
     padding: 100px 30px;
 }
 
+.about, .education, .skills{
+    font-family: 'Poppins', sans-serif;
+}
+
+.about .about-content, 
+.education .edu-content .skills .skills-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
 section .title{
     position: relative;
     text-align: center;
@@ -164,7 +176,7 @@ section .title{
     margin-bottom: 60px;
     padding-bottom: 20px;
     font-family: 'Ubuntu', sans-serif;
-}
+} 
 
 section .title::before{
     content: "";
@@ -188,24 +200,15 @@ section .title::after{
     transform: translateX(-50%);
 }
  
-/*about*/
 
-.about, .education{
-    font-family: 'Poppins', sans-serif;
-}
+
+/*about*/
 
 .about .title::after{
     content: "who i am";
     font-size: 15px;
 }
 
-.about .about-content, 
-.education .edu-content{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-}
 
 .about .about-content.left{
     width: 45%;
@@ -308,6 +311,12 @@ section .title::after{
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
+
+
+
+/* skills section */
+
+
 
 
 
